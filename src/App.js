@@ -1,5 +1,4 @@
 import React from 'react';
-import Tab from './Tab';
 import './App.css';
 function App() {
   return (

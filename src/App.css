@@ -1,108 +1,126 @@
-.container{
+.container {
   background-color: #eee;
   padding-top: 20px;
 }
-.card{
+
+.card {
 
   width: 35%;
   height: auto;
   margin: 0px auto;
-border: 2px solid #e0e0e0;
+  border: 2px solid #e0e0e0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: white;
 }
-.react_image{
+
+.react_image {
   margin-top: 50px;
   height: 120px;
-  width:150px;
+  width: 150px;
 }
-.tag{
+
+.tag {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  
-  
+
+
 }
-.login{
+
+.login {
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-bottom: 2px solid crimson;
   width: 50%;
   padding: 10px;
 }
-.signup{
+
+.signup {
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 50%;
   padding: 10px;
 }
-.email{
-  height: 40px;
-  width: 350px;
-  border-radius: 20px;
-  border:2px solid #eee;
-  font-size: 16px;
-}
-.password{
+
+.email {
   height: 40px;
   width: 350px;
   border-radius: 20px;
   border: 2px solid #eee;
   font-size: 16px;
 }
-.loginbutton{
+
+.password {
+  height: 40px;
+  width: 350px;
+  border-radius: 20px;
+  border: 2px solid #eee;
+  font-size: 16px;
+}
+
+.loginbutton {
   background-color: crimson;
   height: 40px;
   width: 350px;
   border-radius: 18px;
-color: white;
-font-size: large;
-border: none;
+  color: white;
+  font-size: large;
+  border: none;
 }
-.forgot{
+
+.forgot {
   color: crimson;
   width: 350px;
   text-align: right;
-  }
-  .google{
-    border: 2px solid #eee;
-    height: 50px;
-    width: 50px; 
-    border-radius: 30px;
-    margin: 25px;
-  }
-  .facebook{
-    border: 2px solid #eee;
-    height: 30px;
-    width: 30px; 
-    border-radius: 25px;    
-    margin: 25px;
-    padding:10px;
-  }
-  .twitter{
-    border: 2px solid #eee;
-    height: 30px;
-    width: 30px; 
-    border-radius: 30px;  
-    margin: 25px;
-    padding:10px;
-  }
-  .alllogo{
-    display: flex;
-  }
-  .text1{
-    color: gray;
-  }
-  .create{
-    color: crimson;
-  }
-  .terms{color: crimson;
+}
+
+.google {
+  border: 2px solid #eee;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin: 25px;
+}
+
+.facebook {
+  border: 2px solid #eee;
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  margin: 25px;
+  padding: 10px;
+}
+
+.twitter {
+  border: 2px solid #eee;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  margin: 25px;
+  padding: 10px;
+}
+
+.alllogo {
+  display: flex;
+}
+
+.text1 {
+  color: gray;
+}
+
+.create {
+  color: crimson;
+}
+
+.terms {
+  color: crimson;
   border-bottom: 2px solid crimson;
-  }
-  *{
-    margin:0;
-    padding: 0;
-  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
